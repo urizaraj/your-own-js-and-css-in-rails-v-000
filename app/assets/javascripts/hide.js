@@ -1,4 +1,10 @@
+const element = $('#hide_this')
+
 function hideWhenClicked() {
-  let element = $('#hide_this')
+
   element.hide()
 }
+
+$(document).ready(function() {
+  ele
+})

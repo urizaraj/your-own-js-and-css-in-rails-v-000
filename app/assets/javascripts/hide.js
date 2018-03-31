@@ -5,6 +5,6 @@ function hideWhenClicked() {
 }
 
 $(document).ready(function() {
-  const element = $('#hide_this')
+  let element = $('#hide_this')
   element.on('click', hideWhenClicked)
 })
